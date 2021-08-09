@@ -1,0 +1,13 @@
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.exe
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.deps.json
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.runtimeconfig.json
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.runtimeconfig.dev.json
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.dll
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\bin\Debug\netcoreapp3.1\Lab5_1.pdb
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.csprojAssemblyReference.cache
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.AssemblyInfoInputs.cache
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.AssemblyInfo.cs
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.csproj.CoreCompileInputs.cache
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.dll
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.pdb
+C:\LabsOfWeek5\Lab5_1\RPG_Lab5_1\Lab5_1\obj\Debug\netcoreapp3.1\Lab5_1.genruntimeconfig.cache
