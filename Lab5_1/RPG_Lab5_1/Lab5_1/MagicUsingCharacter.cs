@@ -8,32 +8,24 @@ namespace Lab5_1
     {
         private int _magicalEnergy;
 
-        public MagicUsingCharacter()
-        {
-
-        }
-        public MagicUsingCharacter(string name, int strength, int intelligence, int magicalEnergy)
-        {
-            SetName(name);
-            SetStrenght(strength);
-            SetIntelligence(intelligence);
+        
+        public MagicUsingCharacter(string name, int strength, int intelligence, int magicalEnergy) : base (name, strength, intelligence)
+        {           
             _magicalEnergy = magicalEnergy;
         }
+        
 
-        public int GetMagicalEnergy()
+        public int MagicalEnergy
         {
-            return _magicalEnergy;
+            get { return _magicalEnergy; }
+            set { _magicalEnergy = value; }
         }
 
-        public void SetMagicalEnergy(int magicalEnergy)
-        {
-            _magicalEnergy = magicalEnergy;
-        }
 
         public override void Play()
         {
-            Console.WriteLine($"Name: {GetName()}\nStrenght: {GetStrength()}\nIntelligence: {GetIntelligence()}\nMagical Energy: " +
-                $"{GetMagicalEnergy()}");
+            Console.WriteLine($"Name: {Name}\nStrenght: {Strength}\nIntelligence: {Intelligence}\nMagical Energy: " +
+                $"{MagicalEnergy}");
         }
 
     }

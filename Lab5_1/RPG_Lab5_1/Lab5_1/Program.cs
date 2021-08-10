@@ -8,6 +8,7 @@ namespace Lab5_1
         static void Main(string[] args)
         {
             Console.WriteLine("welcome to World of Dev.Buildcraft!");
+            Console.WriteLine();
 
             List<GameCharacter> gameCharacters = new List<GameCharacter>();
 
@@ -23,6 +24,8 @@ namespace Lab5_1
             gameCharacters.Add(one);
             gameCharacters.Add(two);
             gameCharacters.Add(three);
+
+           
 
             for (int i = 0; i < gameCharacters.Count; i++)
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LabsOfWeek5\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj": {}
+    "C:\\LabsOfWeek5\\Week5Labs\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj": {}
   },
   "projects": {
-    "C:\\LabsOfWeek5\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj": {
+    "C:\\LabsOfWeek5\\Week5Labs\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LabsOfWeek5\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj",
+        "projectUniqueName": "C:\\LabsOfWeek5\\Week5Labs\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj",
         "projectName": "Lab5_1",
-        "projectPath": "C:\\LabsOfWeek5\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj",
+        "projectPath": "C:\\LabsOfWeek5\\Week5Labs\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\Lab5_1.csproj",
         "packagesPath": "C:\\Users\\ngusain\\.nuget\\packages\\",
-        "outputPath": "C:\\LabsOfWeek5\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\obj\\",
+        "outputPath": "C:\\LabsOfWeek5\\Week5Labs\\Lab5_1\\RPG_Lab5_1\\Lab5_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ngusain\\AppData\\Roaming\\NuGet\\NuGet.Config",

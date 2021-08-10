@@ -8,32 +8,23 @@ namespace Lab5_1
     {
         private string _weaponType;
 
-        public Warrior()
-        {
 
-        }
-
-        public Warrior(string name, int strength, int intellegence, string weaponType)
-        {
-            SetName(name);
-            SetStrenght(strength);
-            SetIntelligence(intellegence);
-            _weaponType = weaponType;
-        }
-
-        public  string GetWeaponType()
-        {
-            return _weaponType;
-        }
-
-        public void SetWeaponType(string weaponType)
+        public Warrior(string name, int strength, int intellegence, string weaponType) : base(name, strength, intellegence)
         {
             _weaponType = weaponType;
         }
 
+
+        public string WeaponType
+        {
+            get { return _weaponType; }
+            set { _weaponType = value; }
+        }
+
+        
         public override void Play()
         {
-            Console.WriteLine($"Name: {GetName()}\nStrength: {GetStrength()}\nIntelligence: {GetIntelligence()}\nWeapon Type:  {_weaponType}");
+            Console.WriteLine($"Name: {Name}\nStrength: {Strength}\nIntelligence: {Intelligence}\nWeapon Type:  {WeaponType}");
         }
 
     }

@@ -7,34 +7,28 @@ namespace Lab5_1
   public  class Wizard : MagicUsingCharacter
     {
         private int _spellNumber;
-        public Wizard()
-        {
-
-        }
-
+        
         public Wizard(string name, int strength, int intelligence, int magicalEnergy, int spellNumber)
-        {
-            SetName(name);
-            SetStrenght(strength);
-            SetIntelligence(intelligence);
-            SetMagicalEnergy(magicalEnergy);
-            _spellNumber = spellNumber;
+            : base (name, strength, intelligence, magicalEnergy)
+        {            
+           _spellNumber = spellNumber;
         }
 
-        public int GetSpellNumber()
+
+
+        public int SpellNumber
         {
-            return _spellNumber;
+            get { return _spellNumber; }
+            set { _spellNumber = value; }
         }
-        public void SetSpellNumber(int spellNumber)
-        {
-            _spellNumber = spellNumber;
-        }
+
+
+
 
         public override void Play()
         {
-            Console.WriteLine($"Name: { GetName()}\nStrength: { GetStrength()}\nIntelligence: { GetIntelligence()}\nMagical Energy:" +
-                $" {GetMagicalEnergy()}\nSpell Number: {_spellNumber}");
-
+            Console.WriteLine($"Name: { Name}\nStrength: { Strength}\nIntelligence: { Intelligence}\nMagical Energy:" +
+                $" {MagicalEnergy}\nSpell Number: {SpellNumber}");
         }
 
     }
