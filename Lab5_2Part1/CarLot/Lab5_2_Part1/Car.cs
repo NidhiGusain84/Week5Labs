@@ -50,10 +50,10 @@ namespace Lab5_2_Part1
             set { _price = value; }
         }
 
-        public override string ToString()
-        {
-            return $"";
-        }
+        //public override string ToString()
+        //{
+        //    return $"";
+        //}
 
 
     }

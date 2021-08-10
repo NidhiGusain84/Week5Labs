@@ -10,9 +10,8 @@ namespace Lab5_2_Part1
         Chrysler,
         Honda,
         Toyota
-
-
     }
+
     class Program
     {
         static void Main(string[] args)
@@ -68,10 +67,10 @@ namespace Lab5_2_Part1
             Console.WriteLine("\nGoodbye!");
 
             //test code
-            for (int i = 0; i < myList.Count; i++)
-            {
-                Console.WriteLine($"{i + 1} {myList[i].ToString()}");
-            }
+            //for (int i = 0; i < myList.Count; i++)
+            //{
+            //    Console.WriteLine($"{i + 1} {myList[i].ToString()}");
+            //}
 
         }
 
@@ -131,55 +130,52 @@ namespace Lab5_2_Part1
            
             Console.WriteLine("\nPlease enter car details.");
             Console.Write("Car make: ");
-            string strMake = Console.ReadLine();          
-            Enum.TryParse(strMake, out CarMake make);
-           
+            string strMake = Console.ReadLine();
+            CarMake make = (CarMake)Enum.Parse(typeof(CarMake), strMake, true);
+                     
             Console.Write("Model: ");
             string model = Console.ReadLine();
             Console.Write("Year: ");
-            int year = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int year);           
             Console.Write("Price: ");
-            decimal price = decimal.Parse(Console.ReadLine());
-            Console.Write("Extended Warranty? True or False: ");
-            bool extendedWarranty = bool.Parse(Console.ReadLine().ToLower());
-
+            decimal.TryParse(Console.ReadLine(), out decimal price);            
+            Console.Write("Extended Warranty? True or False: ");           
+            bool.TryParse(Console.ReadLine().ToLower(), out bool extendedWarranty);
+         
             NewCar nc = new NewCar(make, model, year, price, extendedWarranty);
             cars.Add(nc);
 
         }
 
         public static void AddUsedCar(List<Car> cars)
-        {
-         
+        {         
             Console.WriteLine("\nPlease enter car details.");
             Console.Write("Car make: ");
-            string strMake = Console.ReadLine();
-            Enum.TryParse(strMake, out CarMake make);
-
+            string strMake = Console.ReadLine();          
+            CarMake make = (CarMake)Enum.Parse(typeof(CarMake), strMake, true);
             Console.Write("Model: ");
             string model = Console.ReadLine();
             Console.Write("Year: ");
-            int year = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int year);
             Console.Write("Price: ");
-            decimal price = decimal.Parse(Console.ReadLine());
+            decimal.TryParse(Console.ReadLine(), out decimal price);
             Console.Write("Number of Owners: ");
-            int owners = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int owners);
             Console.Write("Mileage: ");
-            int mileage = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int mileage);
 
             UsedCar uc = new UsedCar(make, model, year, price, owners, mileage);
             cars.Add(uc);
-
         }
+
 
         public static void PurchaseCar(List<Car> cars)
         {
             Console.Write("Which car you want to purchase? Please enter car no: ");
             int choice = int.Parse(Console.ReadLine());
-
             cars.RemoveAt(choice - 1);
-
         }
+
 
         public static string Continue()
         {
@@ -191,7 +187,6 @@ namespace Lab5_2_Part1
                 input = Console.ReadLine().ToLower();
             }
             return input;
-
         }
 
     }
