@@ -24,7 +24,6 @@ namespace Lab5_1
 
 
 
-
         public override void Play()
         {
             Console.WriteLine($"Name: { Name}\nStrength: { Strength}\nIntelligence: { Intelligence}\nMagical Energy:" +

@@ -14,7 +14,6 @@ namespace Lab5_1
             _weaponType = weaponType;
         }
 
-
         public string WeaponType
         {
             get { return _weaponType; }

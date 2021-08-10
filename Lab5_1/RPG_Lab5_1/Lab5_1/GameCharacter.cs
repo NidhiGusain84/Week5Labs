@@ -9,7 +9,6 @@ namespace Lab5_1
         private string _name;
         private int _strength;
         private int _intelligence;
-
         
         public GameCharacter(string name, int strength, int intelligence)
         {
@@ -25,13 +24,11 @@ namespace Lab5_1
         }
 
 
-
         public int Strength
         {
             get { return _strength; }
             set { _strength = value; }
         }
-
        
 
         public int Intelligence
@@ -39,11 +36,10 @@ namespace Lab5_1
             get { return _intelligence; }
             set { _intelligence = value; }
         }        
-
         
         public virtual void Play()
         {
-            Console.WriteLine($"Name of the Character: {_name}\nStrength: {_strength}\nIntelligence: { _intelligence}");
+            Console.WriteLine($"Name of the Character: {Name}\nStrength: {Strength}\nIntelligence: {Intelligence}");
         }
 
     }
